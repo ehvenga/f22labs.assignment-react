@@ -1,0 +1,115 @@
+.hero {
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(circle at 50% 0, #504a93, var(--dusk) 77%);
+    height: 785px;
+    
+    &-container {
+        position: absolute;
+        top: 26%;
+        margin-left: 15.3%;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .hero-image {
+            position: absolute;
+            left: 18.1%;
+            top: -84px;
+            object-fit: contain;
+        }
+
+        .hero-title {
+            font-size: 4.5rem;
+            margin-left: -0.3%;
+            font-family: "Circular Std Bold";
+            width: 48.5%;
+            line-height: 1.05;
+            letter-spacing: -2.25px;
+        }
+
+        .hero-text {
+            font-size: var(--large-text);
+            color: var(--white-70);
+            width: 46.3%;
+            line-height: 1.86;
+            letter-spacing: -0.59px;
+            margin: 28px 17px 37px 0px;
+        }
+
+        .hero-disclaimer {
+            font-size: 0.788rem;
+            letter-spacing: -0.39px;
+            color: var(--white-70);
+        } 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero {
+        &-container {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        &-image {
+            margin-right: -200px;
+        }
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .hero {
+        &-container {
+            width: 90%;
+            margin-left: 5%;
+        }
+
+        &-image {
+            margin-right: -220px;
+        }
+
+        &-title {
+            font-size: 4.125rem;
+        }
+
+        &-text {
+            font-size: 1.313rem;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hero {
+        &-container {
+            width: 94%;
+            margin-left: 3%;
+        }
+
+        &-image {
+            margin-left: -25%;
+            width: 90%;
+        }
+
+        &-title {
+            position: absolute;
+            top: 300px;
+            width: 100vw;
+            font-size: 4.125rem;
+        }
+
+        &-text {
+            font-size: 1.313rem;
+            position: absolute;
+            top: 500px;
+            font-size: 4.125rem;
+        }
+
+        &-disclaimer {
+            position: absolute;
+            top: 500px;
+            font-size: 4.125rem;
+        }
+    }
+}

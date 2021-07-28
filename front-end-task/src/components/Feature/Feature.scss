@@ -1,0 +1,41 @@
+.feature {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--white);
+    height: 357px;
+
+    &-container {
+        position: relative;
+        top: 82px;
+        margin-left: 15.3%;
+        width: 70%;
+        display: flex;
+    }
+
+    &-box {
+        width: 500px;
+    }
+
+    &-logo {
+        position: relative;
+        top: 1.3%;
+        margin-bottom: 38px;
+    }
+
+    &-title {
+        color: var(--dark-grey);
+        font-size: var(--sub-title-size);
+        line-height: normal;
+        letter-spacing: -0.68px;
+        font-family: "Circular Std Bold";
+    }
+
+    &-text {
+        color: var(--light-grey);
+        font-size: var(--small-text);
+        line-height: 1.75;
+        letter-spacing: -0.45px;
+        margin-top: 13px;
+        margin-right: 32px;
+    }
+}

@@ -1,0 +1,15 @@
+.brandsection {
+    background-color: var(--white);
+    border-top: solid 1px var(--border);
+    height: 108.3px;
+
+    &-container {
+        position: relative;
+        top: 37.3px;
+        margin-left: 15.3%;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

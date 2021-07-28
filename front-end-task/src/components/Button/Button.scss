@@ -1,0 +1,45 @@
+.btn {
+    height: 41px;
+    width: 127px;
+    background-color: var(--btn--primary);
+    color: var(--white);
+    font-family: "Circular Std Medium"; 
+    font-size: var(--small-text);
+    border-radius: 4.5px;
+    border: none;
+
+    &:hover {
+        transition: all 0.3s ease-out;
+        background-color: var(--btn--secondary);
+        cursor: pointer;
+    }
+
+    .btn--secondary {
+        background-color: var(--btn--secondary);
+
+        &:hover {
+            background-color: var(--btn--primary);
+        }
+    }
+}
+
+.nav-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.hero-button {
+    height: 54px;
+    width: 227px;
+    font-size: var(--large-text);
+    margin: 0px 0px 15px 0px;
+}
+
+@media screen and (max-width: 960px) {
+    .nav-button {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+}

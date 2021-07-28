@@ -1,0 +1,72 @@
+.testimonial {
+    background-color: var(--secondary-bg);
+    height: 1009.8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &-header {
+        position: relative;
+        top: 86px;
+        width: 471px;
+    }
+
+    &-title {
+        margin: 0;
+        font-size: var(--title-size);
+        color: var(--dark-grey);
+        font-family: "Circular Std Bold";
+        text-align: center;
+        line-height: 1.17;
+        letter-spacing: -1.69px;
+        margin-bottom: 16px;
+    }
+
+    &-text {
+        margin: 0;
+        font-size: var(--large-text);
+        color: var(--light-grey);
+        text-align: center;
+        line-height: 1.86;
+        letter-spacing: -0.59px;
+    }
+
+    &-card{
+        background-color: var(--white);
+        height: 351px;
+        width: 828px;
+        margin-top: 130px;
+        box-shadow: 0 47px 49px 0 rgba(65, 62, 101, 0.1);
+        border-radius: 9px;
+    }
+
+    &-fact {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        margin-top: 127px;
+
+        &-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0 30px;
+            margin-bottom: 92.2px;
+        }
+
+        &-title {
+            margin: 0;
+            font-size: var(--title-size);
+            color: var(--dark-periwinkle);
+            font-family: "Circular Std Bold";
+        }
+
+        &-text {
+            margin: 0;
+            font-size: var(--large-text);
+            color: var(--light-grey);
+            text-align: center;
+        }
+    }
+}
